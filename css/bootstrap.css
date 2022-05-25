@@ -13,7 +13,8 @@ html {
 }
 
 body {
-    margin: 0
+    margin: 0;
+    box-sizing: border-box;
 }
 
 article,
@@ -279,9 +280,6 @@ th {
     h2,
     h3 {
         page-break-after: avoid
-    }
-    .navbar {
-        display: none
     }
     .btn>.caret,
     .dropup>.btn>.caret {
@@ -4429,7 +4427,7 @@ tbody.collapse.in {
 .navbar-fixed-bottom .dropdown .dropdown-menu {
     top: auto;
     bottom: 100%;
-    margin-bottom: 2px
+    margin-bottom: 2px;
 }
 
 @media (min-width:768px) {
@@ -5066,7 +5064,7 @@ textarea.input-group-sm>.input-group-btn>.btn {
     position: relative;
     min-height: 50px;
     margin-bottom: 20px;
-    border: 1px solid transparent
+    border: 1px solid transparent;
 }
 
 @media (min-width:768px) {
