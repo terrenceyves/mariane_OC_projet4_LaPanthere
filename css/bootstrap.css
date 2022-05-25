@@ -1620,7 +1620,8 @@ h6 {
 }
 
 p {
-    margin: 0 0 10px
+    margin: 0 0 10px;
+    font-size:14px;
 }
 
 .lead {
@@ -8073,3 +8074,4 @@ button.close {
         display: none !important
     }
 }
+
