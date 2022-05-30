@@ -107,11 +107,9 @@
     display: inline-block
 }
 
-
 .et-icon-browser:before {
     content: "\e00c"
 }
-
 
 .et-icon-presentation:before {
     content: "\e00e"
