@@ -890,13 +890,13 @@ h4 {
     }
 }
 
-@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) {
+@media only screen and (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) { /*Erreur css W3C : max-device-width*/
     .b-parallax {
         background-attachment: scroll;
     }
 }
 
-@media only screen and (min-device-width: 1024px) and (max-device-width: 1366px) and (-webkit-min-device-pixel-ratio: 1.5) {
+@media only screen and (min-width: 1024px) and (max-width: 1366px) and (-webkit-min-device-pixel-ratio: 1.5) {/*Erreur css W3C : max-device-width*/
     .b-parallax {
         background-attachment: scroll;
     }
@@ -917,10 +917,12 @@ h4 {
         position: relative;
     }
 
-    .bloc {
+    /*.bloc {
         padding-left: constant(safe-area-inset-left);
         padding-right: constant(safe-area-inset-right);
-    }
+    }*/
+    /*Erreur css W3C Propriété erronée : padding-left constant(safe-area-inset-left) n'est pas une valeur de padding-left :
+    constant(safe-area-inset-left) */
 
     .bloc-group,
     .bloc-group .bloc {
@@ -928,12 +930,14 @@ h4 {
         width: 100%;
     }
 
-    .bloc-fill-screen .fill-bloc-top-edge,
+    /*.bloc-fill-screen .fill-bloc-top-edge,
     .bloc-fill-screen .fill-bloc-bottom-edge {
         padding: 0 20px;
         padding-left: constant(safe-area-inset-left);
         padding-right: constant(safe-area-inset-right);
-    }
+    }*/
+    /*Erreur css W3C Propriété erronée : padding-left constant(safe-area-inset-left) n'est pas une valeur de padding-left :
+    constant(safe-area-inset-left) */
 }
 
 @media (max-width: 767px) {

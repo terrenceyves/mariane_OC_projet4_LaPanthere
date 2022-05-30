@@ -4285,7 +4285,7 @@ tbody.collapse.in {
     margin-left: 2px;
     vertical-align: middle;
     border-top: 4px dashed;
-    border-top: 4px solid\9;
+    border-top: 4px solid; /*Erreur css W3C /9 supprimé*/
     border-right: 4px solid transparent;
     border-left: 4px solid transparent
 }
@@ -4372,7 +4372,7 @@ tbody.collapse.in {
     cursor: not-allowed;
     background-color: transparent;
     background-image: none;
-    filter: progid:DXImageTransform.Microsoft.gradient(enabled=false)
+    /*filter: progid:DXImageTransform.Microsoft.gradient(enabled=false)*/ /*Erreur css W3C*/
 }
 
 .open>.dropdown-menu {
@@ -4405,7 +4405,7 @@ tbody.collapse.in {
 .dropdown-backdrop {
     position: fixed;
     top: 0;
-    right: 0;
+    right: 0;C
     bottom: 0;
     left: 0;
     z-index: 990
@@ -5123,7 +5123,7 @@ textarea.input-group-sm>.input-group-btn>.btn {
     max-height: 340px
 }
 
-@media (max-device-width:480px) and (orientation:landscape) {
+@media (max-width:480px) and (orientation:landscape) { /*Erreur css W3C : max-device-width*/
     .navbar-fixed-bottom .navbar-collapse,
     .navbar-fixed-top .navbar-collapse {
         max-height: 200px
