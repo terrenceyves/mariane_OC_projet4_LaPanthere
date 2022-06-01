@@ -31,12 +31,12 @@ Header unset Cache-Control
 # BEGIN Expires Headers
 <IfModule mod_expires.c>
 ExpiresActive On
-ExpiresByType img/jpg "access plus 1 month"
-ExpiresByType img/jpeg "access plus 1 month"
-ExpiresByType img/gif "access plus 1 month"
-ExpiresByType img/png "access plus 1 month"
-ExpiresByType img/webp "access plus 1 month"
-ExpiresByType css/css "access plus 1 month"
+ExpiresByType image/jpg "access plus 1 month"
+ExpiresByType image/jpeg "access plus 1 month"
+ExpiresByType image/gif "access plus 1 month"
+ExpiresByType image/png "access plus 1 month"
+ExpiresByType image/webp "access plus 1 month"
+ExpiresByType text/css "access plus 1 month"
 ExpiresByType application/pdf "access plus 1 month"
 ExpiresByType text/x-javascript "access plus 1 month"
 ExpiresByType application/x-shockwave-flash "access plus 1 year"

@@ -756,10 +756,6 @@ h4 {
     color: #FFFFFF !important;
 }
 
-.portfolio-thumb {
-    margin-bottom: 24px;
-}
-
 .portfolio-row {
     margin-bottom: 44px;
     margin-top: 50px;
@@ -844,6 +840,7 @@ h4 {
 }
 
 /*Modifications du site web*/
+/*Texte comme images : remplacement par du vrai texte*/
 .bloc-rempla-img {
     max-width: 635px;
     margin:auto;
@@ -864,12 +861,15 @@ h4 {
     font-size: 22px;
 }
 
+/*Texte du footer*/
 .blackText {
     color:#000000!important;
     font-size: 18px;
     font-weight: 600;
 }
 
+
+/*Optimisation couleur du bouton envoyer*/
 .btn-atomic-tangerine-envoyer {
     background: #5C0002;
     color: #FFFFFF !important;
@@ -881,6 +881,18 @@ h4 {
     border:1px solid #5C0002
 }
 
+/*Optimisation taille des images*/
+
+.image-resize-mode{
+    width: 100px;
+    height: 100px;
+}
+
+.portfolio-thumb {
+    margin-bottom: 24px;
+    width: 320px;
+    height: auto;
+}
 
 
 /*Media queries*/
