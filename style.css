@@ -788,7 +788,7 @@ h4 {
 }
 
 .bgc-atomic-tangerine {
-    background-color: #FF5500;
+    background-color: #ff4000;
 }
 
 .tc-white {
@@ -864,10 +864,21 @@ h4 {
     font-size: 22px;
 }
 
-.redText {
-    color:#5C0002!important;
+.whiteText {
+    color:#ffffff!important;
     font-size: 16px;
     font-weight: 600;
+}
+
+.btn-atomic-tangerine-envoyer {
+    background: #5C0002;
+    color: #FFFFFF !important;
+}
+
+.btn-atomic-tangerine-envoyer:hover {
+    background: #FFFFFF !important;
+    color: #5C0002 !important;
+    border:1px solid #5C0002
 }
 
 
