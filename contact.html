@@ -91,21 +91,21 @@
 										Nom*
 									</label>
 									<input id="name" type="text" name="pseudo" placeholder="Votre nom"
-										autocomplete="name" class="form-control" required />
+										autocomplete="name" class="form-control"  aria-required="true" />
 								</div>
 								<div class="form-group">
 									<label for="email">
 										Adresse email*
 									</label>
 									<input id="email" type="email" name="email" placeholder="Votre adresse email"
-										autocomplete="email" class="form-control" required />
+										autocomplete="email" class="form-control"  aria-required="true" />
 								</div>
 								<div class="form-group">
 									<label for="source">
 										Comment nous avez-vous connu ?*
 									</label>
 									<select id="source" name="source" placeholder="Bouche à oreille"
-										class="form-control" required>
+										class="form-control"  aria-required="true">
 										<option value="dog">Bouche à oreille</option>
 										<option value="cat">Recherche internet</option>
 										<option value="cat">Réseaux sociaux</option>
@@ -116,7 +116,7 @@
 									<label for="message">
 										Brief de votre projet (Ajoutez autant de détails que nécessaire)*<br>
 									</label>
-									<textarea id="message" class="form-control" rows="4" cols="50" required></textarea>
+									<textarea id="message" class="form-control" rows="4" cols="50"  aria-required="true"></textarea>
 								</div>
 								<button class="bloc-button btn btn-lg btn-block cta-hero btn-atomic-tangerine-envoyer"
 									type="submit">
